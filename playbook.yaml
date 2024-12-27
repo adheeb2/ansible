@@ -12,5 +12,5 @@
         src: index.html
         dest: /var/www/html1
         owner: root
-        group: root
+        group: rootfg
         mode: "0644"
