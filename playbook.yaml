@@ -10,7 +10,7 @@
     - name: Copy file with owner and permissions
       ansible.builtin.copy:
         src: index.html
-        dest: /var/www/html
-        owner: rootfg
+        dest: /var/www/html1
+        owner: root
         group: root
         mode: "0644"
